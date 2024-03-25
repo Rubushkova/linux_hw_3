@@ -1,0 +1,20 @@
+   0 date > /root/user.txt
+   1 cat /root/user.txt
+   2 df 
+   3 df -h / | head -2
+   4 df -h / | tail -1 >> /root/user.txt
+   5 history | tail -5 >> /root/user.txt
+   6 cat /root/user.txt
+   7 grep vendor /proc/cpuinfo >> /root/user.txt
+   8 cat /root/user.txt
+   9 vi /root/user.txt
+  10 ps -ef
+  11 ps -ef | wc -l -n
+  12 ps -ef | tail -n
+  13 ps -ef |sed '${/PID/d;' | wc -l
+  14 ps -ef | tail -n -2 | wc -l >> /root/user.txt 
+  15 cat /root/user.txt
+  16 ps -ef | wc -l >> /root/user.txt
+  17 cat /root/user.txt
+  18 vi /root/user.txt
+  19 history > history.txt
